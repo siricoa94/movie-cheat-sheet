@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/04/marvel-cinematic-universe-mcu-phase-4.jpg?itok=x18Pj23r");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navBar {
+    position: absolute;
+    background-color: red;
+    color:white;
+    width: 50%;
+    margin-left: 25%;
+}
+#exampleFormControlInput1 {
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+    
+}
+#exampleFormControlInput2 {
+    position: absolute;
+    width: 90%;
+    top: 45%;
+    left: 5%;
+}
+#exampleFormControlInput3 {
+    position: absolute;
+    width: 90%;
+    top: 75%;
+    left: 5%;
+}
+#characterNameTitle {
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 5%;
+    font-size: 200%;
+}
+#movieTitle {
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 5%;
+    font-size: 200%;
+    top: 30%;
+}
+#wikipediaInfo {
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 5%;
+    font-size: 200%;
+    top: 60%
+}
+#superHeroInfo {
+    top: 20%;
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 60%;
+    border: double 4px red;
+}
+#superDisplay {
+    position: absolute;
+    left: 30%;
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    top: 20%;
+    border: double 4px red;
+}
+#superDisplayTitle {
+    position: absolute;
+    background-color:red;
+    color: white;
+    left: 25%;
+
+}
+.table {
+    position: absolute;
+    top: 15%;
+}
+#sub {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
