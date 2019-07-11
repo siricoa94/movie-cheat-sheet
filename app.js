@@ -28,4 +28,4 @@ var queryURL = "https://www.omdbapi.com/?t=" + input + "&apikey=trilogy";
           console.log(input);
           console.log(inf.description);
   })
-});
+})
