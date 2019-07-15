@@ -1,4 +1,4 @@
-$("#sub").on("click", function () {
+$("#sub").on("click", function (event) {
   event.preventDefault();
 
   var movieName = $("#exampleFormControlInput1").val().toLowerCase().trim();
@@ -8,7 +8,7 @@ $("#sub").on("click", function () {
   $("tbody").empty();
 
   var input = movieName
-  var queryURL = "https://www.omdbapi.com/?t=" + input +  "&plot=full&apikey=trilogy"; //||
+  var queryURL = "https://www.omdbapi.com/?t=" + input + "&plot=full&apikey=trilogy" //&&
   //"https://www.omdbapi.com/?t=" + input + "&y=" + input + "&apikey=trilogy";
 
   console.log(input);
@@ -24,16 +24,49 @@ $("#sub").on("click", function () {
     var ratedTD = $("<td>").text(response.Rated);
     var plotTd = $("<td>").text(response.Plot);
     var actorTd = $("<td>").text(response.Actors);
-    var ratingsTd =$("<td>").text(response.Ratings[0].Value);
-    // ratingsTd.append(response.Ratings[2].Value);
+    var ratingsTd = $("<td>").text(response.Ratings[0].Value);
     var imgURL = response.Poster;
     var image = $("<img>").attr("src", imgURL)
-    tRow.append(image, titleTd, yearTd, ratingsTd, 
+    tRow.append(image, titleTd, yearTd, ratingsTd,
       plotTd, ratedTD, actorTd);
     $("tbody").append(tRow);
 
   });
+});
+  $("#sub").on("click", function (event) {
+    event.preventDefault();
+    
+    var Giphycall = $("#exampleFormControlInput1").val().toLowerCase().trim();
+    
+    
+    
+    var input = Giphycall
+    var giphyurl = "https://api.giphy.com/v1/gifs/search?q=" + input +
+      "&api_key=LgLbsRdUWao0JhCQMJryh9mbJgxU03D8&limit=5";
+    console.log(input);
 
+    $.ajax({
+      url: giphyurl,
+      method: "GET"
+    }).then(function (memes) {
+      console.log(memes.data);
+      var results = memes.data
+      console.log(results);
+      for (var i = 0; i < results.length; i++){
+      var fun = $('<div>');
+      var gifsImage = $('<img>');
+      gifsImage.attr('src', results[i].images.fixed_height.url);
+      gifsImage.attr("data-animate", results[i].images.fixed_height.url)
+      gifsImage.addClass('gif');
+      fun.append(gifsImage);
+      $('#gifyImageLoader').prepend(fun);
+      
+      };
+
+    });
+    
+  });
+  
   // var tvURL = "http://api.tvmaze.com/search/shows?q=" + input;
 
   // $.ajax({
@@ -50,22 +83,4 @@ $("#sub").on("click", function () {
 
 
 
-  // var giphyurl = "https://api.giphy.com/v1/gifs/search?q=" + input +
-  //   "&api_key=LgLbsRdUWao0JhCQMJryh9mbJgxU03D8&limit=5";
-  // console.log(input);
 
-  // $.ajax({
-  //   url: giphyurl,
-  //   method: "GET"
-  // }).then(function (memes) {
-  //   console.log(memes);
-  //   var funtRow = $('<div>');
-  //   var gifsImage = $('<img>');
-  //   gifsImage.attr('src', memes.images.fixed_height.url);
-  //   gifsImage.addClass('gif');
-  //   $('#giphy').prepend(funtRow);
-
-
-  // })
-
-});

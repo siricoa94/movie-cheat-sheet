@@ -1,6 +1,111 @@
-body {
-    background-image: url("https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/04/marvel-cinematic-universe-mcu-phase-4.jpg?itok=x18Pj23r");
-    background-repeat: no-repeat;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("https://www.wcs.edu/theswarm/wp-content/uploads/sites/73/2018/12/91YWN2-mI6L._SL1500_-1200x790.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+    }
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color:white;
+        width: 50%;
+        margin-left: 25%;
+        height: 5%;
+    }
+    #pageTitle {
+        position: absolute;
+        font-size: 80%;
+    }
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 15%;
+        left: 5%;
+        
+        
+    }
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 5%;
+        font-size: 100%;
+    }
+    #gifyImageLoader {
+        position: absolute;
+        top: 30%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+        background-color: blue;
+    }
+    #superHeroInfo {
+        top: 20%;
+        position: absolute;
+        background-color: white;
+        width: 35%;
+        height: 60%;
+        border: double 4px red;
+    }
+    #superDisplay {
+        position: absolute;
+        left: 40%;
+        width: 55%;
+        height: 60%;
+        background-color: white;
+        top: 20%;
+        border: double 4px red;
+    }
+    #superDisplayTitle {
+        position: absolute;
+        background-color:red;
+        color: white;
+        left: 25%;
+        font-size: 100%;
+    
+    }
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+    #sub {
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+      .tableFirst {
+          position: absolute;
+          left: 15%;
+      }
+      .tableLast {
+        position: absolute;
+        left: 35%;
+    }
+    .tableHandle {
+        position: absolute;
+        left: 5%;
+    }
+} 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { body {
+    background-image: url("https://www.wcs.edu/theswarm/wp-content/uploads/sites/73/2018/12/91YWN2-mI6L._SL1500_-1200x790.jpg");
+    /* background-repeat: no-repeat; */
     background-size: cover;
 }
 #navBar {
@@ -9,13 +114,17 @@ body {
     color:white;
     width: 50%;
     margin-left: 25%;
+    height: 5%;
+}
+#pageTitle {
+    position: absolute;
+    font-size: 80%;
 }
 #exampleFormControlInput1 {
     position: absolute;
     width: 90%;
     top: 15%;
     left: 5%;
-
     
 }
 #exampleFormControlInput2 {
@@ -24,47 +133,33 @@ body {
     top: 45%;
     left: 5%;
 }
-#exampleFormControlInput3 {
-    position: absolute;
-    width: 90%;
-    top: 75%;
-    left: 5%;
-}
 #characterNameTitle {
     position: absolute;
     background-color: red;
     color: white;
     left: 5%;
-    font-size: 200%;
-}
-#movieTitle {
-    position: absolute;
-    background-color: red;
-    color: white;
-    left: 5%;
-    font-size: 200%;
-    top: 30%;
-}
-#wikipediaInfo {
-    position: absolute;
-    background-color: red;
-    color: white;
-    left: 5%;
-    font-size: 200%;
-    top: 60%
+    font-size: 100%;
 }
 #superHeroInfo {
     top: 20%;
     position: absolute;
     background-color: white;
-    width: 25%;
+    width: 35%;
     height: 60%;
     border: double 4px red;
 }
+#gifyImageLoader {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    left: 10%;
+    height: 40%;
+    background-color: blue;
+}
 #superDisplay {
     position: absolute;
-    left: 30%;
-    width: 50%;
+    left: 40%;
+    width: 55%;
     height: 60%;
     background-color: white;
     top: 20%;
@@ -76,7 +171,7 @@ body {
     background-color:red;
     color: white;
     left: 25%;
-
+    font-size: 100%;
 }
 .table {
     position: absolute;
@@ -87,3 +182,126 @@ body {
     top: 80%;
     left: 5%;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .tableFirst {
+      position: absolute;
+      left: 20%;
+  }
+  .tableLast {
+    position: absolute;
+    left: 40%;
+}
+.tableHandle {
+    position: absolute;
+    left: 60%
+}} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {body {
+    background-image: url("https://www.wcs.edu/theswarm/wp-content/uploads/sites/73/2018/12/91YWN2-mI6L._SL1500_-1200x790.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+#navBar {
+    position: absolute;
+    background-color: red;
+    color:white;
+    width: 50%;
+    margin-left: 25%;
+    height: 5%;
+}
+#pageTitle {
+    position: absolute;
+    font-size: 150%;
+}
+#exampleFormControlInput1 {
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+    
+    
+}
+#exampleFormControlInput2 {
+    position: absolute;
+    width: 90%;
+    top: 45%;
+    left: 5%;
+}
+#characterNameTitle {
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 5%;
+    font-size: 150%;
+    width: 80%;
+    text-align: center;
+}
+#superHeroInfo {
+    top: 20%;
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    height: 60%;
+    border: double 4px red;
+}
+#superDisplay {
+    position: absolute;
+    left: 40%;
+    width: 55%;
+    height: 60%;
+    background-color: white;
+    top: 20%;
+    border: double 4px red;
+}
+#superDisplayTitle {
+    position: absolute;
+    background-color:red;
+    color: white;
+    left: 10%;
+    font-size: 150%;
+    width: 80%;
+    top: 2%;
+    text-align: center;
+}
+.table {
+    position: absolute;
+    top: 15%;
+}
+#sub {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .tableFirst {
+      position: absolute;
+      left: 15%;
+  }
+  .tableLast {
+    position: absolute;
+    left: 35%;
+}
+.tableHandle {
+    position: absolute;
+    left: 5%;
+}} 
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  */
