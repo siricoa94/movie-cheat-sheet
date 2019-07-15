@@ -15,6 +15,7 @@ body {
     width: 90%;
     top: 15%;
     left: 5%;
+
     
 }
 #exampleFormControlInput2 {
@@ -68,6 +69,7 @@ body {
     background-color: white;
     top: 20%;
     border: double 4px red;
+    overflow: auto;
 }
 #superDisplayTitle {
     position: absolute;
