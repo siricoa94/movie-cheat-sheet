@@ -4,6 +4,7 @@
         background-image: url("https://www.wcs.edu/theswarm/wp-content/uploads/sites/73/2018/12/91YWN2-mI6L._SL1500_-1200x790.jpg");
         /* background-repeat: no-repeat; */
         background-size: cover;
+        background-attachment: fixed;
     }
     #navBar {
         position: absolute;
@@ -38,7 +39,7 @@
         left: 5%;
         font-size: 100%;
     }
-    #gifyImageLoader {
+    #gifyImageLoader Img{
         position: absolute;
         top: 30%;
         width: 80%;
@@ -107,6 +108,8 @@
     background-image: url("https://www.wcs.edu/theswarm/wp-content/uploads/sites/73/2018/12/91YWN2-mI6L._SL1500_-1200x790.jpg");
     /* background-repeat: no-repeat; */
     background-size: cover;
+    background-attachment: fixed;
+    
 }
 #navBar {
     position: absolute;
@@ -148,13 +151,13 @@
     height: 60%;
     border: double 4px red;
 }
-#gifyImageLoader {
+#gifyImageLoader Img{
     position: absolute;
+    object-fit: contain;
     top: 30%;
     width: 80%;
     left: 10%;
     height: 40%;
-    background-color: blue;
 }
 #superDisplay {
     position: absolute;
@@ -165,6 +168,7 @@
     top: 20%;
     border: double 4px red;
     overflow: auto;
+    
 }
 #superDisplayTitle {
     position: absolute;
@@ -251,6 +255,9 @@ footer {
     width: 35%;
     height: 60%;
     border: double 4px red;
+}
+#gifyImageContainer {
+    object-fit: contain;
 }
 #superDisplay {
     position: absolute;
