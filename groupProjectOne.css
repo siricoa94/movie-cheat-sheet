@@ -1,87 +1,811 @@
 body {
-    background-image: url("https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2019/04/marvel-cinematic-universe-mcu-phase-4.jpg?itok=x18Pj23r");
-    background-repeat: no-repeat;
+    background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+    /* background-repeat: no-repeat; */
     background-size: cover;
+    background-attachment: fixed;
+
 }
+
 #navBar {
     position: absolute;
     background-color: red;
-    color:white;
-    width: 50%;
-    margin-left: 25%;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 19%;
+    font-size: 200%;
+    font-family: fantasy
 }
+
+#pageTitle {
+    position: absolute;
+    font-size: 180%;
+}
+
 #exampleFormControlInput1 {
     position: absolute;
     width: 90%;
-    top: 15%;
+    top: 35%;
     left: 5%;
-    
+    background-color: white;
+    border: solid red 2px;
+
 }
+
 #exampleFormControlInput2 {
     position: absolute;
     width: 90%;
     top: 45%;
     left: 5%;
 }
-#exampleFormControlInput3 {
-    position: absolute;
-    width: 90%;
-    top: 75%;
-    left: 5%;
-}
+
 #characterNameTitle {
     position: absolute;
     background-color: red;
     color: white;
-    left: 5%;
-    font-size: 200%;
+    left: 25%;
+    height: 15%;
+    width: 50%;
+    font-size: 250%;
+    text-align: center;
+    border: white double 4px;
 }
-#movieTitle {
-    position: absolute;
-    background-color: red;
-    color: white;
-    left: 5%;
-    font-size: 200%;
-    top: 30%;
-}
-#wikipediaInfo {
-    position: absolute;
-    background-color: red;
-    color: white;
-    left: 5%;
-    font-size: 200%;
-    top: 60%
-}
+
 #superHeroInfo {
     top: 20%;
+    left: 22%;
     position: absolute;
-    background-color: white;
-    width: 25%;
+    width: 55%;
     height: 60%;
-    border: double 4px red;
 }
+
+#gifyImageLoader Img {
+    position: absolute;
+    object-fit: contain;
+    top: 50%;
+    width: 80%;
+    left: 10%;
+    height: 40%;
+}
+
 #superDisplay {
     position: absolute;
-    left: 30%;
-    width: 50%;
+    left: 22%;
+    width: 60%;
     height: 60%;
+    top: 90%;
+    overflow: auto;
+    margin-bottom: 10%;
     background-color: white;
-    top: 20%;
-    border: double 4px red;
-}
-#superDisplayTitle {
-    position: absolute;
-    background-color:red;
-    color: white;
-    left: 25%;
+    border: red double 4px;
+    font-size: 150%;
 
 }
+
+#superDisplayTitle {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border: white double 4px;
+    left: 10%;
+    width: 80%;
+    font-size: 100%;
+    bottom: 80%;
+    text-align: center;
+
+}
+
 .table {
     position: absolute;
     top: 15%;
 }
+
 #sub {
     position: absolute;
-    top: 80%;
-    left: 5%;
+    top: 37%;
+    left: 96%;
+    height: 10%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: white;
+    text-align: center;
+}
+
+.tableFirst {
+    position: absolute;
+    left: 20%;
+
+}
+
+.tableLast {
+    position: absolute;
+    left: 40%;
+
+}
+
+.tableHandle {
+    position: absolute;
+    left: 60%
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    body {
+        background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 80%;
+        margin-left: 10%;
+        height: 19%;
+        font-size: 200%;
+        font-family: fantasy
+    }
+
+    #pageTitle {
+        position: absolute;
+        font-size: 180%;
+    }
+
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 35%;
+        left: 5%;
+        background-color: white;
+        border: solid red 2px;
+
+    }
+
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 25%;
+        height: 15%;
+        width: 50%;
+        font-size: 250%;
+        text-align: center;
+        border: white double 4px;
+    }
+
+    #superHeroInfo {
+        top: 20%;
+        left: 22%;
+        position: absolute;
+        width: 55%;
+        height: 60%;
+    }
+
+    #gifyImageLoader Img {
+        position: absolute;
+        object-fit: contain;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+    }
+
+    #superDisplay {
+        position: absolute;
+        left: 22%;
+        width: 60%;
+        height: 60%;
+        top: 90%;
+        overflow: auto;
+        margin-bottom: 10%;
+        background-color: white;
+        border: red double 4px;
+        font-size: 150%;
+
+    }
+
+    #superDisplayTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        border: white double 4px;
+        left: 10%;
+        width: 80%;
+        font-size: 100%;
+        bottom: 80%;
+        text-align: center;
+    
+    }
+    
+
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+
+    #sub {
+        position: absolute;
+        top: 37%;
+        left: 96%;
+        height: 10%;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+        color: white;
+        text-align: center;
+    }
+
+    .tableFirst {
+        position: absolute;
+        left: 20%;
+
+    }
+
+    .tableLast {
+        position: absolute;
+        left: 40%;
+
+    }
+
+    .tableHandle {
+        position: absolute;
+        left: 60%
+    }
+
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    body {
+        background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 80%;
+        margin-left: 10%;
+        height: 19%;
+        font-size: 200%;
+        font-family: fantasy
+    }
+
+    #pageTitle {
+        position: absolute;
+        font-size: 180%;
+    }
+
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 25%;
+        left: 5%;
+        background-color: white;
+        border: solid red 2px;
+
+    }
+
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 25%;
+        height: 10%;
+        width: 50%;
+        font-size: 150%;
+        text-align: center;
+        border: white double 4px;
+    }
+
+    #superHeroInfo {
+        top: 20%;
+        left: 22%;
+        position: absolute;
+        width: 55%;
+        height: 60%;
+    }
+
+    #gifyImageLoader Img {
+        position: absolute;
+        object-fit: contain;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+    }
+
+    #superDisplay {
+        position: absolute;
+        left: 22%;
+        width: 55%;
+        height: 60%;
+        top: 90%;
+        overflow: auto;
+        margin-bottom: 100%;
+        font-size: 150%;
+
+    }
+
+    #superDisplayTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        border: white double 4px;
+        left: 10%;
+        width: 80%;
+        font-size: 100%;
+        bottom: 80%;
+        text-align: center;
+    
+    }
+    
+
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+
+    #sub {
+        position: absolute;
+        top: 28%;
+        left: 96%;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+        color: white;
+        text-align: center;
+    }
+
+    .tableFirst {
+        position: absolute;
+        left: 20%;
+
+    }
+
+    .tableLast {
+        position: absolute;
+        left: 40%;
+
+    }
+
+    .tableHandle {
+        position: absolute;
+        left: 60%
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 80%;
+        margin-left: 10%;
+        height: 19%;
+        font-size: 200%;
+        font-family: fantasy
+    }
+
+    #pageTitle {
+        position: absolute;
+        font-size: 180%;
+    }
+
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 25%;
+        left: 5%;
+        background-color: white;
+        border: solid red 2px;
+
+    }
+
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 25%;
+        height: 10%;
+        width: 50%;
+        font-size: 150%;
+        text-align: center;
+        border: white double 4px;
+    }
+
+    #superHeroInfo {
+        top: 20%;
+        left: 22%;
+        position: absolute;
+        width: 55%;
+        height: 60%;
+    }
+
+    #gifyImageLoader Img {
+        position: absolute;
+        object-fit: contain;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+    }
+
+    #superDisplay {
+        position: absolute;
+        left: 22%;
+        width: 55%;
+        height: 60%;
+        top: 90%;
+        overflow: auto;
+        margin-bottom: 80%;
+        font-size: 150%;
+
+    }
+
+    #superDisplayTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        border: white double 4px;
+        left: 10%;
+        width: 80%;
+        font-size: 100%;
+        bottom: 80%;
+        text-align: center;
+    
+    }
+    
+
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+
+    #sub {
+        position: absolute;
+        top: 27%;
+        left: 96%;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height: 15%;
+    }
+
+    .tableFirst {
+        position: absolute;
+        left: 20%;
+
+    }
+
+    .tableLast {
+        position: absolute;
+        left: 40%;
+
+    }
+
+    .tableHandle {
+        position: absolute;
+        left: 60%
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px){
+    body {
+        background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 90%;
+        margin-left: 5%;
+        height: 19%;
+        font-size: 200%;
+        font-family: fantasy
+    }
+
+    #pageTitle {
+        position: absolute;
+        font-size: 180%;
+    }
+
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 25%;
+        left: 5%;
+        background-color: white;
+        border: solid red 2px;
+
+    }
+
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 25%;
+        height: 10%;
+        width: 50%;
+        font-size: 150%;
+        text-align: center;
+        border: white double 4px;
+    }
+
+    #superHeroInfo {
+        top: 20%;
+        left: 22%;
+        position: absolute;
+        width: 55%;
+        height: 60%;
+    }
+
+    #gifyImageLoader Img {
+        position: absolute;
+        object-fit: contain;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+    }
+
+    #superDisplay {
+        position: absolute;
+        left: 22%;
+        width: 55%;
+        height: 60%;
+        top: 90%;
+        overflow: auto;
+        margin-bottom: 80%;
+        font-size: 150%;
+
+    }
+
+    #superDisplayTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        border: white double 4px;
+        left: 10%;
+        width: 80%;
+        font-size: 100%;
+        bottom: 80%;
+        text-align: center;
+    
+    }
+    
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+
+    #sub {
+        position: absolute;
+        top: 28%;
+        left: 97%;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+        color: white;
+        text-align: center;
+    }
+
+    .tableFirst {
+        position: absolute;
+        left: 20%;
+
+    }
+
+    .tableLast {
+        position: absolute;
+        left: 40%;
+
+    }
+
+    .tableHandle {
+        position: absolute;
+        left: 60%
+    }
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("https://walls4u.co.uk/app/uploads/2018/10/AdobeStock_117332684.jpg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #navBar {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 50%;
+        margin-left: 25%;
+        height: 15%;
+        text-align: center;
+    }
+
+    #pageTitle {
+        position: absolute;
+        font-size: 80%;
+    }
+
+    #exampleFormControlInput1 {
+        position: absolute;
+        width: 90%;
+        top: 30%;
+        left: 2%;
+        background-color: white;
+
+
+    }
+
+    #exampleFormControlInput2 {
+        position: absolute;
+        width: 90%;
+        top: 45%;
+        left: 5%;
+    }
+
+    #characterNameTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 25%;
+        font-size: 200%;
+    }
+
+    #gifyImageLoader Img {
+        position: absolute;
+        top: 50%;
+        width: 80%;
+        left: 10%;
+        height: 40%;
+    }
+
+    #superHeroInfo {
+        top: 15%;
+        left: 12%;
+        position: absolute;
+        width: 75%;
+        height: 60%;
+    }
+
+    #superDisplay {
+        position: absolute;
+        left: 12%;
+        width: 75%;
+        height: 60%;
+        top: 70%;
+        overflow: auto;
+        margin-bottom: 100%;
+        font-size: 150%;
+    }
+
+    #superDisplayTitle {
+        position: absolute;
+        background-color: red;
+        color: white;
+        border: white double 4px;
+        left: 10%;
+        width: 80%;
+        font-size: 100%;
+        bottom: 80%;
+        text-align: center;
+    
+    }
+    
+
+    .table {
+        position: absolute;
+        top: 15%;
+    }
+
+    #sub {
+        position: absolute;
+        top: 29.5%;
+        left: 94%;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        height: 15%;
+    }
+
+    .tableFirst {
+        position: absolute;
+        left: 15%;
+
+    }
+
+    .tableLast {
+        position: absolute;
+        left: 35%;
+
+    }
+
+    .tableHandle {
+        position: absolute;
+        left: 5%;
+
+    }
 }
