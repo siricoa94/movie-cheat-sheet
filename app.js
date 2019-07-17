@@ -83,10 +83,10 @@ function omdb() {
     pHead.append(image);
     tHead.append(titleTd);
     yHead.append(yearTd);
-    iHead.append(ratedTD);
+    rHead.append(ratedTD);
     plHead.append(plotTd);
-    rHead.append(actorTd);
-    sHead.append(ratingsTd);
+    iHead.append(ratingsTd);
+    sHead.append(actorTd);
 
 
   });
